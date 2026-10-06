@@ -1,0 +1,600 @@
+{
+    "models": {
+        "logistic_regression": {
+            "name": "Logistic Regression",
+            "type": "baseline",
+            "description": "Linear classification baseline that predicts probability distribution over expense categories using text TF-IDF representations.",
+            "accuracy": 0.99,
+            "precision": 0.9907,
+            "recall": 0.99,
+            "f1": 0.99,
+            "training_time": 0.34,
+            "inference_time": 0.0019,
+            "per_category": {
+                "Education": {
+                    "precision": 1.0,
+                    "recall": 0.92,
+                    "f1": 0.9583,
+                    "support": 450
+                },
+                "Entertainment": {
+                    "precision": 0.9259,
+                    "recall": 1.0,
+                    "f1": 0.9615,
+                    "support": 450
+                },
+                "Food": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                },
+                "Healthcare": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                },
+                "Other": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                },
+                "Shopping": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                },
+                "Transportation": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                },
+                "Utilities": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                }
+            },
+            "confusion_matrix": [
+                [
+                    414,
+                    36,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    450,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    450,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    450,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    450,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    450,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    450,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    450
+                ]
+            ]
+        },
+        "decision_tree": {
+            "name": "Decision Tree Classifier",
+            "type": "baseline",
+            "description": "Non-linear tree baseline that partitions text feature space using orthogonal decision boundaries.",
+            "accuracy": 0.705,
+            "precision": 0.9008,
+            "recall": 0.705,
+            "f1": 0.7371,
+            "training_time": 0.21,
+            "inference_time": 0.002,
+            "per_category": {
+                "Education": {
+                    "precision": 1.0,
+                    "recall": 0.8111,
+                    "f1": 0.8957,
+                    "support": 450
+                },
+                "Entertainment": {
+                    "precision": 0.9016,
+                    "recall": 0.7333,
+                    "f1": 0.8088,
+                    "support": 450
+                },
+                "Food": {
+                    "precision": 0.3049,
+                    "recall": 1.0,
+                    "f1": 0.4673,
+                    "support": 450
+                },
+                "Healthcare": {
+                    "precision": 1.0,
+                    "recall": 0.8133,
+                    "f1": 0.8971,
+                    "support": 450
+                },
+                "Other": {
+                    "precision": 1.0,
+                    "recall": 0.7022,
+                    "f1": 0.8251,
+                    "support": 450
+                },
+                "Shopping": {
+                    "precision": 1.0,
+                    "recall": 0.3333,
+                    "f1": 0.5,
+                    "support": 450
+                },
+                "Transportation": {
+                    "precision": 1.0,
+                    "recall": 0.4356,
+                    "f1": 0.6068,
+                    "support": 450
+                },
+                "Utilities": {
+                    "precision": 1.0,
+                    "recall": 0.8111,
+                    "f1": 0.8957,
+                    "support": 450
+                }
+            },
+            "confusion_matrix": [
+                [
+                    365,
+                    36,
+                    49,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    330,
+                    120,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    450,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    84,
+                    366,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    134,
+                    0,
+                    316,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    300,
+                    0,
+                    0,
+                    150,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    254,
+                    0,
+                    0,
+                    0,
+                    196,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    85,
+                    0,
+                    0,
+                    0,
+                    0,
+                    365
+                ]
+            ]
+        },
+        "random_forest": {
+            "name": "Random Forest Classifier",
+            "type": "baseline",
+            "description": "Ensemble of decorrelated decision trees combining bootstrap aggregated subsets for enhanced generalization.",
+            "accuracy": 0.9297,
+            "precision": 0.9519,
+            "recall": 0.9297,
+            "f1": 0.9309,
+            "training_time": 0.39,
+            "inference_time": 0.0672,
+            "per_category": {
+                "Education": {
+                    "precision": 0.9554,
+                    "recall": 1.0,
+                    "f1": 0.9772,
+                    "support": 450
+                },
+                "Entertainment": {
+                    "precision": 1.0,
+                    "recall": 0.9089,
+                    "f1": 0.9523,
+                    "support": 450
+                },
+                "Food": {
+                    "precision": 0.6598,
+                    "recall": 1.0,
+                    "f1": 0.7951,
+                    "support": 450
+                },
+                "Healthcare": {
+                    "precision": 1.0,
+                    "recall": 0.9778,
+                    "f1": 0.9888,
+                    "support": 450
+                },
+                "Other": {
+                    "precision": 1.0,
+                    "recall": 0.9889,
+                    "f1": 0.9944,
+                    "support": 450
+                },
+                "Shopping": {
+                    "precision": 1.0,
+                    "recall": 0.6356,
+                    "f1": 0.7772,
+                    "support": 450
+                },
+                "Transportation": {
+                    "precision": 1.0,
+                    "recall": 0.9467,
+                    "f1": 0.9726,
+                    "support": 450
+                },
+                "Utilities": {
+                    "precision": 1.0,
+                    "recall": 0.98,
+                    "f1": 0.9899,
+                    "support": 450
+                }
+            },
+            "confusion_matrix": [
+                [
+                    450,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    21,
+                    409,
+                    20,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    450,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    10,
+                    440,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    5,
+                    0,
+                    445,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    164,
+                    0,
+                    0,
+                    286,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    24,
+                    0,
+                    0,
+                    0,
+                    426,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    9,
+                    0,
+                    0,
+                    0,
+                    0,
+                    441
+                ]
+            ]
+        },
+        "proposed_hybrid": {
+            "name": "Proposed Expense-Aware Hybrid Classifier",
+            "type": "proposed",
+            "description": "Novel multi-modal classifier combining sublinear TF-IDF text features with structured transaction features (log amount, merchant, payment method, temporal calendar attributes).",
+            "accuracy": 0.9997,
+            "precision": 0.9997,
+            "recall": 0.9997,
+            "f1": 0.9997,
+            "training_time": 4.14,
+            "inference_time": 0.0899,
+            "per_category": {
+                "Education": {
+                    "precision": 1.0,
+                    "recall": 0.9978,
+                    "f1": 0.9989,
+                    "support": 450
+                },
+                "Entertainment": {
+                    "precision": 0.9978,
+                    "recall": 1.0,
+                    "f1": 0.9989,
+                    "support": 450
+                },
+                "Food": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                },
+                "Healthcare": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                },
+                "Other": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                },
+                "Shopping": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                },
+                "Transportation": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                },
+                "Utilities": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "support": 450
+                }
+            },
+            "confusion_matrix": [
+                [
+                    449,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    450,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    450,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    450,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    450,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    450,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    450,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    450
+                ]
+            ]
+        }
+    },
+    "summary": {
+        "best_model_key": "proposed_hybrid",
+        "best_model_name": "Proposed Expense-Aware Hybrid Classifier",
+        "best_f1": 0.9997,
+        "best_accuracy": 0.9997,
+        "classes": [
+            "Education",
+            "Entertainment",
+            "Food",
+            "Healthcare",
+            "Other",
+            "Shopping",
+            "Transportation",
+            "Utilities"
+        ],
+        "test_samples": 3600,
+        "comparison_with_rf": {
+            "proposed_f1": 0.9997,
+            "random_forest_f1": 0.9309,
+            "f1_difference": 0.0688,
+            "percentage_improvement": 7.39,
+            "proposed_outperformed_rf": true
+        }
+    }
+}

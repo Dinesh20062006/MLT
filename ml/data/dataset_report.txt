@@ -1,0 +1,61 @@
+=================================================================
+SYNTHETIC EXPENSE TRANSACTION DATASET REPORT
+Academic Mini-Project: Smart Expense Category Prediction
+=================================================================
+
+ETHICS & EXPERIMENTATION NOTICE:
+This dataset is synthetically generated for academic experimentation
+and does not represent real users or real financial transactions.
+
+Total Transactions : 18,000
+Total Categories   : 8
+Missing Values     : 0
+Duplicate Rows     : 0
+Unique Merchants   : 136
+Date Span          : 2025-01-01 to 2026-09-30
+
+---------------------------------------------
+RECORDS PER CATEGORY:
+---------------------------------------------
+  - Transportation    :  2250 records (12.5%)
+  - Entertainment     :  2250 records (12.5%)
+  - Utilities         :  2250 records (12.5%)
+  - Shopping          :  2250 records (12.5%)
+  - Food              :  2250 records (12.5%)
+  - Healthcare        :  2250 records (12.5%)
+  - Other             :  2250 records (12.5%)
+  - Education         :  2250 records (12.5%)
+
+---------------------------------------------
+PAYMENT METHOD DISTRIBUTION:
+---------------------------------------------
+  - UPI               :  8811 (48.9%)
+  - Credit Card       :  4662 (25.9%)
+  - Debit Card        :  2649 (14.7%)
+  - Net Banking       :  1175 (6.5%)
+  - Cash              :   703 (3.9%)
+
+---------------------------------------------
+TRANSACTION AMOUNT STATISTICS (INR):
+---------------------------------------------
+  - Mean Amount    : ₹1,698.00
+  - Std Deviation  : ₹1,994.21
+  - Minimum Amount : ₹40.00
+  - 25th Percentile: ₹381.00
+  - Median (50%)   : ₹950.00
+  - 75th Percentile: ₹2,280.00
+  - Maximum Amount : ₹16,690.00
+
+---------------------------------------------
+CATEGORY AMOUNT BREAKDOWN:
+---------------------------------------------
+  - Education      : Mean=₹ 4584.1 | Med=₹ 4295 | Min=₹ 350 | Max=₹ 16690
+  - Entertainment  : Mean=₹  810.2 | Med=₹  750 | Min=₹ 149 | Max=₹  2870
+  - Food           : Mean=₹  443.2 | Med=₹  427 | Min=₹  80 | Max=₹  1500
+  - Healthcare     : Mean=₹ 2082.1 | Med=₹ 1970 | Min=₹ 150 | Max=₹  7610
+  - Other          : Mean=₹  909.4 | Med=₹  870 | Min=₹ 100 | Max=₹  3760
+  - Shopping       : Mean=₹ 2472.4 | Med=₹ 2330 | Min=₹ 250 | Max=₹  8310
+  - Transportation : Mean=₹  405.4 | Med=₹  378 | Min=₹  40 | Max=₹  1750
+  - Utilities      : Mean=₹ 1877.3 | Med=₹ 1830 | Min=₹ 299 | Max=₹  5350
+
+=================================================================
